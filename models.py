@@ -10,7 +10,6 @@ class Item(db.Model):
     description = db.Column(db.String(250), nullable=True)
     
     def __init__(self, name, description=None):
-        # Aqui está a indentação correta
         self.name = name
         self.description = description
 
